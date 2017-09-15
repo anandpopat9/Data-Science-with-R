@@ -1,0 +1,7 @@
+"","Model_desc","Multiple R-squared","Adjusted R-squared","p-value","Summary"
+"Model_a","Initial Fitting","0.1082","0.09913","0.0008317","R square value should be high for a good fit but its not so. P should be less (near to zero) which is proper. Model is not the best fit as R square value is low."
+"Model_b","Line forced through Wayne Gretzky","0.1082","0.09913","0.0008317","Although the value of intercept changed, there is no change in the values of R square and P compared to the previous model."
+"Model_c","Line forced through Patrick Kane","0.116","0.1071","0.0004909","The values of R squared slightly increases and p decreases further which is good. No significant changes compared to previous models."
+"Model_d","Initial Fitting, forced to go through (0,0)","0.8982","0.8972","< 2.2e-16","The value of R squared increases significantly and p decreases. This is a great fit compared to initial fitting model."
+"Model_e","Line forced through Wayne Gretzky, model forced through (0,0)","0.9091","0.9082","< 2.2e-16","The values of R squared increases more which is good."
+"Model_f","Line forced through Patrick Kane, model forced through (0,0)","0.5759","0.5717","< 2.2e-16","The value of R squared decreases in comparison to other models that pass though origin but is still better than the same model (model_c) not forced through origin."
